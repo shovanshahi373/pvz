@@ -1,0 +1,18 @@
+@font-face {
+  src: url("../fonts/double_feature/DoubleFeature20.ttf");
+  font-family: "zombie";
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas {
+  box-shadow: 0 0 0 1px black inset;
+}
